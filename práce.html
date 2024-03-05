@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práce</title>
+</head>
+<body>
+    <section>
+        <h1>Napiš číslo měsíce</h1>
+        <input type="text" id="cisloMesice" placeholder="Zadejte číslo měsíce(1-12)">
+        <button id="vypoctiMesic">Říct měsíc</button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h1>Výpis sudých čísel od 1-20</h1>
+        <button id="sudyCisla">Něco se stane :D</button>
+        <div id="output" style="display: none;"></div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h1>Kontrola hesla</h1>
+        <label for="password">Heslo:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit" id="submitButton">Potvrdit</button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h1>Výpis dne v týdnu</h1>
+        <input type="text" id="cisloDne" placeholder="Zadejte číslo dne v týdnu (1-7)">
+        <button id="vypisDne">Říct den v týdnu</button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h1>Výpis Fibonacciho posloupnosti</h1>
+        <button id="vypisFibonacci" onclick="vypisFibonacci()">Klikni a něco se stane :D</button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h1>Součet zadaných čísel</h1>
+        <input type="number" id="cisloInput">
+        <button id="potvrzeniCisla" onclick="zpracujCislo()">Potvrdit</button>
+    </section>
+    <script src="práce.js"></script>
+</body>
+</html>
